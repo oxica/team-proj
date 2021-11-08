@@ -16,14 +16,14 @@
 
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .list {
@@ -72,11 +72,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .advantage__item {
@@ -85,7 +85,7 @@ img {
   width: 250px;
   height: 200px;
   -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
-          box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
   border-radius: 7px;
   background-color: var(--primary-background-color);
 }
@@ -126,7 +126,7 @@ img {
 }
 
 .advantages__title {
-  font-family: "Hind Madurai";
+  font-family: 'Hind Madurai';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -137,7 +137,7 @@ img {
 }
 
 .advantages__text {
-  font-family: "Hind Madurai";
+  font-family: 'Hind Madurai';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -202,6 +202,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
+
   cursor: pointer;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -238,7 +239,7 @@ img {
 }
 
 .product__header {
-  font-family: "Hind Madurai";
+  font-family: 'Hind Madurai';
   font-weight: 600;
   font-size: 44.2px;
   line-height: calc(61 / 44.2);
@@ -248,7 +249,7 @@ img {
 }
 
 .filter-list .current {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 18px;
   line-height: calc(21 / 18);
@@ -261,8 +262,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -273,7 +274,7 @@ img {
 .filter__btn {
   background-color: transparent;
   border: none;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 18px;
   line-height: calc(21 / 18);
@@ -282,7 +283,9 @@ img {
   text-transform: uppercase;
 }
 
-.filter__btn:active, .filter__btn:focus, .filter__btn:hover {
+.filter__btn:active,
+.filter__btn:focus,
+.filter__btn:hover {
   opacity: 1;
 }
 
@@ -291,11 +294,11 @@ article {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .prod__list li + li {
@@ -307,7 +310,7 @@ article {
 }
 
 .prod__name {
-  font-family: "Hind Madurai";
+  font-family: 'Hind Madurai';
   font-weight: 700;
   font-size: 26px;
   line-height: calc(36 / 26);
@@ -316,7 +319,7 @@ article {
 }
 
 .prod__description {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -326,7 +329,7 @@ article {
 }
 
 .price {
-  font-family: "Hind Madurai";
+  font-family: 'Hind Madurai';
   font-weight: 500;
   font-size: 26px;
   line-height: calc(36 / 26);
@@ -336,12 +339,12 @@ article {
 
 .price::after {
   content: '$22.55';
-  font-family: "Hind Madurai";
+  font-family: 'Hind Madurai';
   font-weight: 500;
   font-size: 20px;
   line-height: calc(28 / 20);
   -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   color: var(--primary-text-color);
   opacity: 0.7;
   margin-left: 10px;
@@ -353,7 +356,7 @@ article {
   background: var(--accent-color);
   border-radius: 5px;
   border-color: transparent;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -415,4 +418,3 @@ article {
   line-height: calc(23 /20);
   color: #FFFFFF;
 }
-/*# sourceMappingURL=main.css.map */
