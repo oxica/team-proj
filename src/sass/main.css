@@ -149,4 +149,42 @@ img {
   padding-left: 26px;
   padding-right: 26px;
 }
+
+.banner {
+  padding: 140px 0;
+  background-image: url(../images/svg/bunner_img_png.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  height: 650px;
+}
+
+.banner__title {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 1.11;
+  color: var(--third-text-color);
+}
+
+.banner__text {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #150101;
+  opacity: 0.6;
+}
+
+.bunner__btn {
+  width: 165px;
+  height: 49px;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
 /*# sourceMappingURL=main.css.map */
