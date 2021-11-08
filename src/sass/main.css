@@ -14,6 +14,18 @@
   --accent-background-color: #f2ceda;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 .list {
   list-style: none;
 }
