@@ -48,6 +48,7 @@ ul {
 
 img {
   display: block;
+  min-width: 100%;
   height: auto;
 }
 
@@ -151,7 +152,6 @@ img {
   padding-left: 26px;
   padding-right: 26px;
 }
-
 
 .banner {
   padding: 140px 0;
@@ -335,4 +335,5 @@ article {
   color: #fafafa;
 
 }
+
 /*# sourceMappingURL=main.css.map */
