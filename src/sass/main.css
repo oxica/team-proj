@@ -152,4 +152,188 @@ img {
   padding-left: 26px;
   padding-right: 26px;
 }
+
+.banner {
+  padding: 140px 0;
+  background-image: url(../images/svg/bunner_img_png.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  height: 650px;
+}
+
+.banner__title {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 1.11;
+  color: var(--third-text-color);
+}
+
+.banner__text {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #150101;
+  opacity: 0.6;
+}
+
+.bunner__btn {
+  width: 165px;
+  height: 49px;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.product__header {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: calc(61 / 44.2);
+  color: var(--third-text-color);
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.filter-list .current {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  color: var(--primary-text-color);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.filter-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-list li + li {
+  margin-left: 40px;
+}
+
+.filter__btn {
+  background-color: transparent;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  color: var(--primary-text-color);
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.filter__btn:active, .filter__btn:focus, .filter__btn:hover {
+  opacity: 1;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prod__list li + li {
+  margin-top: 30px;
+}
+
+.prod__card {
+  width: 454px;
+}
+
+.prod__name {
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(36 / 26);
+  color: var(--primary-text-color);
+  margin-bottom: 11px;
+}
+
+.prod__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--primary-text-color);
+  opacity: 0.7;
+  margin-bottom: 28px;
+}
+
+.price {
+  font-family: "Hind Madurai";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: calc(36 / 26);
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
+}
+
+.price::after {
+  content: '$22.55';
+  font-family: "Hind Madurai";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(28 / 20);
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: var(--primary-text-color);
+  opacity: 0.7;
+  margin-left: 10px;
+}
+
+.buy-btn {
+  width: 165px;
+  height: 49px;
+  background: var(--accent-color);
+  border-radius: 5px;
+  border-color: transparent;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  color: #fafafa;
+
+}
+
 /*# sourceMappingURL=main.css.map */
