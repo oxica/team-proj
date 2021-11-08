@@ -62,4 +62,87 @@ img {
   border: 0;
   clip: rect(0 0 0 0);
 }
+
+.advantages {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantage__item {
+  display: block;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+}
+
+.advantage__item + .advantage__item {
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+.advantage__item::before {
+  content: '';
+  display: block;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--primary-background-color);
+  padding-right: 0;
+}
+
+.icon-bus::before {
+  background-size: 52px 44px;
+  background-image: url(../images/svg/icon-bus.svg);
+}
+
+.icon-cup::before {
+  background-size: 32px 42px;
+  background-image: url(../images/svg/icon-cup.svg);
+}
+
+.icon-money::before {
+  background-size: 44px 44px;
+  background-image: url(../images/svg/icon-money.svg);
+}
+
+.icon-delivery::before {
+  background-size: 54px 54px;
+  background-image: url(../images/svg/icon-delivery.svg);
+}
+
+.advantages__title {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.38;
+  color: var(--primary-text-color);
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.advantages__text {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.38;
+  color: var(--primary-text-color);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 28px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
 /*# sourceMappingURL=main.css.map */
