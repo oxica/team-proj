@@ -6,6 +6,7 @@
 .advantages__list {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .advantage__item {
@@ -24,9 +25,9 @@
   &::before {
     content: '';
     display: block;
-    height: 100px;
+    height: 80px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-color: var(--primary-background-color);
     padding-right: 0;
   }
@@ -57,7 +58,7 @@
   font-size: 20px;
   line-height: 1.38;
   color: var(--primary-text-color);
-  margin-top: 24px;
+  margin-top: 20px;
   margin-bottom: 0px;
 }
 
