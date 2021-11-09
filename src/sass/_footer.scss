@@ -1,10 +1,17 @@
+.footer {
+  background-color: #0a0808;
+}
 .food {
   display: flex;
   justify-content: baseline;
   align-items: center;
-  background-color: rgb(253, 91, 91);
 }
-.food__text {
+.food-social {
+  padding-top: 74px;
+  padding-bottom: 111px;
+  margin-right: 37px;
+}
+.food-social__text {
   font-family: Roboto;
   font-weight: 400;
   font-size: 12px;
@@ -12,6 +19,7 @@
   letter-spacing: 0.01em;
   color: var(--white-text-color);
   opacity: 0.7;
+  margin-bottom: 24px;
 }
 .text {
   font-family: Roboto;
@@ -20,4 +28,103 @@
   line-height: calc(14 / 12);
   color: var(--white-text-color);
   opacity: 0.7;
+}
+.food-social__logo {
+  margin-bottom: 8px;
+}
+.heading-social {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: var(--white-text-color);
+  margin-bottom: 9px;
+}
+.food-social__list {
+  display: flex;
+  align-items: center;
+}
+.food-social__element {
+  margin-right: 10px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+.food-home {
+  padding-top: 146px;
+  padding-bottom: 101px;
+  margin-right: 132px;
+}
+.food-home__title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: var(--white-text-color);
+  margin-bottom: 10px;
+}
+.food-home__element {
+  margin-bottom: 10px;
+  &:nth-child(5n) {
+    margin-bottom: 0;
+  }
+}
+.information {
+  padding-top: 153px;
+  padding-bottom: 118px;
+  margin-right: 150px;
+}
+.information__element {
+  margin-bottom: 10px;
+  &:nth-child(5n) {
+    margin-bottom: 0;
+  }
+}
+.newsletter {
+  padding-top: 139px;
+  padding-bottom: 118px;
+}
+.newsletter__title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--white-text-color);
+  margin-bottom: 13px;
+}
+.position {
+  position: relative;
+}
+.newsletter__form {
+  width: 388px;
+  height: 55px;
+  opacity: 0.5;
+  border: 2px solid #d64374;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: inherit;
+  color: var(--white-text-color);
+  padding-left: 32px;
+  margin-bottom: 18px;
+}
+.newsletter__button {
+  position: absolute;
+  right: -1%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  color: var(--white-text-color);
+  background: #d23166;
+  border-radius: 5px;
+  padding: 16px 18px;
+}
+.newsletter__list {
+  display: flex;
+}
+.newsletter__element {
+  margin-right: 15px;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
 }
