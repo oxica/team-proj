@@ -1,14 +1,18 @@
 .banner {
-  max-width: 1600px;
+
   padding: 140px 0;
-  background-image: url(../images/svg/bunner_img_png.png);
+  background-image: url(../images/banner/bunner_img_png.png),
+    url(../images/banner/banner_shadow_png.png);
+
   background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
-  height: 650px;
-  //   width: 650px;
+  background-position: 80% 85%, 75% 87%;
+  background-size: contain, 300px;
+  // height: 650px;
+    width: 1600px;
   background-color: #f8edf0;
+
 }
+
 
 .banner__title {
   font-family: Hind Madurai;
