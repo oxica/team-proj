@@ -1,24 +1,19 @@
 .banner {
-  max-width: 1600px;
+
   padding: 140px 0;
-  background-image: url(../images/svg/bunner_img_png.png);
+  background-image: url(../images/banner/bunner_img_png.png),
+    url(../images/banner/banner_shadow_png.png);
+
   background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
-  height: 650px;
-//   width: 650px;
-background-color: #F8EDF0;
-}
-.container{
-  width: 1230px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.banner__box{
+  background-position: 80% 85%, 75% 87%;
+  background-size: contain, 300px;
+  // height: 650px;
+    width: 1600px;
+  background-color: #f8edf0;
 
 }
+
+
 .banner__title {
   font-family: Hind Madurai;
   font-weight: 600;
@@ -49,11 +44,11 @@ background-color: #F8EDF0;
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .bunner__btn:hover,
-.bunner__btn:focus{
+.bunner__btn:focus {
   background-color: var(--accent-background-color);
   color: var(--accent-color);
   border-color: var(--accent-color);

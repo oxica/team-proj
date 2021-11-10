@@ -51,6 +51,14 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -176,15 +184,7 @@ img {
   background-position: right top;
   background-size: contain;
   height: 650px;
-  background-color: #F8EDF0;
-}
-
-.container {
-  width: 1230px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: #f8edf0;
 }
 
 .banner__title {
