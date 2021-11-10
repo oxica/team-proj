@@ -1,0 +1,43 @@
+.header {
+  width: 100vw;
+  background-color: #f8edf0;
+}
+.header-container {
+  width: 1125px;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-link {
+  font-family: $mainFont;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--third-text-color);
+  opacity: 0.6;
+  &.current {
+    color: var(--accent-color);
+  }
+}
+
+.header-btn {
+  width: 165px;
+  height: 49px;
+  background: var(--accent-color);
+  border-radius: 5px;
+  border: none;
+  font-family: $secondaryFont;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #fafafa;
+}

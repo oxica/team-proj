@@ -70,6 +70,22 @@ img {
   clip: rect(0 0 0 0);
 }
 
+.header {
+  width: 100vw;
+  background-color: var(--accent-background-color);
+}
+
+.header-container {
+  width: 1125px;
+  height: 79px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .advantages {
   padding-top: 100px;
   padding-bottom: 100px;
