@@ -1,5 +1,8 @@
 # Parcel boilerplate
 
+![image](https://github.com/oxica/the-glass-huts/blob/main/images/prtsc.png)
+
+
 ## Скрытые файлы
 
 Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не
