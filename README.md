@@ -1,6 +1,7 @@
 # Parcel boilerplate
 
-![image](https://github.com/oxica/the-glass-huts/blob/main/images/prtsc.png)
+
+![image](https://github.com/oxica/team-proj/blob/main/src/images/prtsc.png)
 
 
 ## Скрытые файлы
